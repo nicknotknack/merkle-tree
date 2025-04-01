@@ -1,0 +1,8 @@
+{
+  "name": "merkle-tree",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.0"
+  }
+}
