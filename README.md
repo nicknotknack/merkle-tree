@@ -2,22 +2,18 @@
 
 This script creates a Merkle Tree using the [OpenZeppelin Merkle Tree](https://github.com/OpenZeppelin/merkle-tree) library and allows you to generate a Merkle proof for a given address and amount.
 
-## 📦 Requirements
-
-- Node.js
-- Install dependencies:
-  ```bash
-  npm install @openzeppelin/merkle-tree
-  ```
-
 ## 🚀 Usage
+
+### 0. Install dependencies
+
+```bash
+yarn install
+```
 
 ### 1. Create a Merkle Tree
 
-Run the script:
-
 ```bash
-node index.js
+node merkle-tree.js
 ```
 
 This will generate a `tree.json` file and print the Merkle Root.
