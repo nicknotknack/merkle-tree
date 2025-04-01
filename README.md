@@ -23,13 +23,13 @@ This will generate a `tree.json` file and print the Merkle Root.
 You can get the Merkle proof for a specific address and amount:
 
 ```bash
-node index.js proofValue <address> <amount>
+node merkle-tree.js proofValue <address> <amount>
 ```
 
 **Example:**
 
 ```bash
-node index.js proofValue 0x1234567890abcdef1234567890abcdef12345678 11
+node merkle-tree.js proofValue 0x1234567890abcdef1234567890abcdef12345678 11
 ```
 
 If the value exists in the tree, it will print the proof.
